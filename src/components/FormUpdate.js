@@ -26,7 +26,7 @@ export default function FormUpdate() {
       body: JSON.stringify(body)
     }
     
-    fetch(`http://localhost:3003/api/${id}`, objetcFetch)
+    fetch(`https://phonebook-backend-gv.herokuapp.com/api/${id}`, objetcFetch)
       .then(res => res.json())
       .then(res => {
         if(res.status === "200") {
@@ -50,7 +50,7 @@ export default function FormUpdate() {
     const signal = controller.signal
     const url = window.location.toString().split('/').pop()
 
-    fetch(`http://localhost:3003/api/${url}`, {signal})
+    fetch(`https://phonebook-backend-gv.herokuapp.com/api/${url}`, {signal})
       .then(res => res.json())
       .then(res => {
         setId(res.id)

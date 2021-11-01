@@ -9,7 +9,7 @@ export default function Home() {
   const [error, setError] = useState(false)
 
   const getContacts = () => {
-    fetch(`http://localhost:3003/api`)
+    fetch(`https://phonebook-backend-gv.herokuapp.com/api`)
       .then(res => {
         if(!res.ok) throw Error(res.status)
 
@@ -25,7 +25,7 @@ export default function Home() {
       headers: {'Content-Type': 'application/json'}
     }
 
-    fetch(`http://localhost:3003/api/${id}`, objetcFetch)
+    fetch(`https://phonebook-backend-gv.herokuapp.com/api/${id}`, objetcFetch)
       .then(res => res.json())
       .then(() => getContacts())
       .catch(err => setError({error: err, status: true, message: "Ocurrio un error al solicitar los datos."}))

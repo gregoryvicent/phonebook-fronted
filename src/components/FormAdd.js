@@ -13,7 +13,7 @@ export default function FormAdd() {
   const addContact = (e) => {
     e.preventDefault()
 
-    fetch(`http://localhost:3003/api`)
+    fetch(`https://phonebook-backend-gv.herokuapp.com/api`)
       .then(res => {
         if (!res.ok) throw Error(res.status)
 
@@ -34,7 +34,7 @@ export default function FormAdd() {
           body: JSON.stringify(body)
         }
 
-        fetch(`http://localhost:3003/api`, objetcFetch)
+        fetch(`https://phonebook-backend-gv.herokuapp.com/api`, objetcFetch)
           .then(res => res.json())
           .then(res => {
             if(res.status === "200") {
