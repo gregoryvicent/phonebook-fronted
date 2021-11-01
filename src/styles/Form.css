@@ -1,0 +1,39 @@
+:root {
+  --dark-green: #87AAAA;
+  --green: #77D970;
+  --light-green: #49FF00;
+}
+
+.Form {
+  background-color: var(--dark-green);
+  width: 50%;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  border-radius: 15px;
+  padding: 2rem; 
+}
+
+.Form-div {
+  display: flex;
+  flex-direction: column;
+  margin: .5rem 0;
+}
+
+.Form-input {
+  height: 25px;
+}
+
+.Form-submit {
+  background-color: var(--green);
+  border: none;
+  border-radius: 15px;
+  width: 80%;
+  margin: 5vh auto;
+  transition: all .5s ease;
+}
+
+.Form-submit:hover {
+  background-color: var(--light-green);
+}

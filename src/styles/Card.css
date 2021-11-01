@@ -1,0 +1,64 @@
+:root {
+  --card-color: #87AAAA;
+  --delete-color: #E02401;
+  --delete-hover-color: #FF4848;
+  --update-color: #3E065F;
+  --update-hover-color: #8E05C2;
+  --link-hover-color: #D3E4CD;
+  --white-color: #fff;
+}
+
+.Card {
+  width: 220px;
+  height: 220px;
+  justify-self: center;
+  background-color: var(--card-color); 
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2rem;
+}
+
+.Card-img {
+  width: 40%;
+}
+
+.Card-name {
+  font-size: 1.3rem;
+}
+
+.Card-buttonBox {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+
+.Card-deleteBt {
+  border: none;
+  border-radius: 10px;
+  background-color: var(--delete-color);
+  color: var(--my-white);
+  padding: .5rem;
+  font-size: 1.01rem;
+  font-family: 'Zen Kurenaido', sans-serif;
+  transition: all .5s ease;
+}
+
+.Card-deleteBt:hover {
+  cursor: pointer;
+  color: var(--link-hover-color);
+  background-color: var(--delete-hover-color);
+}
+
+.Card-updateBt {
+  border-radius: 10px;
+  background-color: var(--update-color);
+  color: var(--my-white);
+  padding: .5rem;
+  transition: all .5 ease;
+}
+
+.Card-updateBt:hover {
+  background-color: var(--update-hover-color);
+}

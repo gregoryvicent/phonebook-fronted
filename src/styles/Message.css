@@ -1,0 +1,13 @@
+.Message {
+  background-color: #49FF00;
+  height: 40px;
+  margin-top: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Message-text {
+  font-size: 1.1rem;
+  font-weight: 900;
+}

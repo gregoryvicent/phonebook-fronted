@@ -1,0 +1,32 @@
+:root {
+  --main-color: #C8E3D4;
+  --my-white: #fff;
+  --color-link-hover: #D3E4CD;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Zen Kurenaido', sans-serif;
+  background-color: var(--main-color);
+}
+
+a {
+  text-decoration: none;
+  color: var(--my-white);
+  transition: all .5s ease;
+}
+
+a:hover {
+  color: var(--color-link-hover);
+}
+
+h1 {
+  text-align: center;
+  margin: 3rem;
+  font-size: 2.5rem;
+}
