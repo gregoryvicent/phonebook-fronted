@@ -8,7 +8,7 @@ export default function Header() {
     <header className="header">
       <nav>
         <ul className="header-nav">
-          <li className="header-item"><Link to="/">Home</Link></li>
+          <li className="header-item"><Link to="/phonebook-fronted">Home</Link></li>
           <li className="header-item"><Link to="/add">Agregar</Link></li>
         </ul>
       </nav>
