@@ -13,7 +13,7 @@ export default function App() {
     <Router>
       <Layout>
         <Switch>
-          <Route exact path="/" component={Home}/>
+          <Route exact path="/phonebook-frontend" component={Home}/>
           <Route exact path="/add" component={Add}/>
           <Route path="/update" component={Update}/>
         </Switch>
