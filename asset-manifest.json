@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/phonebook-fronted/static/css/main.3c5437e5.chunk.css",
+    "main.js": "/phonebook-fronted/static/js/main.7bc88401.chunk.js",
+    "main.js.map": "/phonebook-fronted/static/js/main.7bc88401.chunk.js.map",
+    "runtime-main.js": "/phonebook-fronted/static/js/runtime-main.fb6b7746.js",
+    "runtime-main.js.map": "/phonebook-fronted/static/js/runtime-main.fb6b7746.js.map",
+    "static/js/2.9cfa834b.chunk.js": "/phonebook-fronted/static/js/2.9cfa834b.chunk.js",
+    "static/js/2.9cfa834b.chunk.js.map": "/phonebook-fronted/static/js/2.9cfa834b.chunk.js.map",
+    "static/js/3.eff90b68.chunk.js": "/phonebook-fronted/static/js/3.eff90b68.chunk.js",
+    "static/js/3.eff90b68.chunk.js.map": "/phonebook-fronted/static/js/3.eff90b68.chunk.js.map",
+    "index.html": "/phonebook-fronted/index.html",
+    "static/css/main.3c5437e5.chunk.css.map": "/phonebook-fronted/static/css/main.3c5437e5.chunk.css.map",
+    "static/js/2.9cfa834b.chunk.js.LICENSE.txt": "/phonebook-fronted/static/js/2.9cfa834b.chunk.js.LICENSE.txt",
+    "static/media/user.178d03ca.png": "/phonebook-fronted/static/media/user.178d03ca.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fb6b7746.js",
+    "static/js/2.9cfa834b.chunk.js",
+    "static/css/main.3c5437e5.chunk.css",
+    "static/js/main.7bc88401.chunk.js"
+  ]
+}
