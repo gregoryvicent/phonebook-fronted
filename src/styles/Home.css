@@ -6,3 +6,7 @@
 .Home-message {
   text-align: center;
 }
+
+.Home-loader {
+  margin: 0 auto;
+}

@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react'
 
 import Card from '../Card'
 
+import barsLoader from '../../img/bars.svg'
+
 import '../../styles/Home.css'
 
 export default function Home() {
@@ -42,7 +44,7 @@ export default function Home() {
             ? (<h2 className="Home-message">{error.message}</h2>)
             : (contacts.length
               ? (contacts.map((element) => <Card key={element.id} id={element.id} name={element.name} phone={element.phone} deleteMethod={() => deleteContact(element.id)}/>)) 
-              : (<h2 className="Home-message">No hay Contactos</h2>))
+              : (<img src={barsLoader} alt="loader..." className="Home-loader"/>))
         }
       </div>
     </>
