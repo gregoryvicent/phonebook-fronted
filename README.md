@@ -12,14 +12,14 @@ Hay mucho que se puede mejorar en este proyecto pero espero que sea útil para l
 
 ## Tecnologías Usadas:
 
-- HTML
-- CSS
-- JavaScript
-- React.js
+- **HTML**
+- **CSS**
+- **JavaScript**
+- **React.js**
 
 ## Para inicializar el proyecto:
 
-Primero colonar el repositorio.
+Primero clonar el repositorio.
 
 Ingresar mediante la terminal a la carpeta creada al clonar el repositorio.
 
