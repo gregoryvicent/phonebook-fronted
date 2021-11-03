@@ -6,7 +6,7 @@ Este es un proyecto realizado en React.js con el fin de practicar esta tecnolog�
 
 Este proyecto se centra en el frontend de una aplicación que interactua con los datos mediante una API REST.
 
-Esta misma API fue creada por mi usando NODE y EXPRESS. Esta documentada en este otro repositorio: [phoneboo-backend](https://github.com/gregoryvicent/phonebook-backend)
+Esta misma API fue creada por mi usando NODE y EXPRESS. Esta documentada en este otro repositorio: [phonebook-backend](https://github.com/gregoryvicent/phonebook-backend)
 
 Hay mucho que se puede mejorar en este proyecto pero espero que sea útil para las personas que apenas se están sumergiendo en el mundo del desarrollo frontend con React.js
 
